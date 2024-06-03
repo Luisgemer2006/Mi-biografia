@@ -1,0 +1,19 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px;
+}
+
+a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
